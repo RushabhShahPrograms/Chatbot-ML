@@ -1,0 +1,708 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you?",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "What's up",
+                "how are you",
+                "heyy",
+                "whatsup"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi! Welcome",
+                "Hi there, how can I help?",
+                "Hello! how are you?",
+                "Nice to meet you! How can I help you today"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you",
+                "bye bye",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Bye",
+                "Have a Good day",
+                "talk to you later",
+                "ttyl",
+                "i got to go",
+                "gtg"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!",
+                "Come back soon",
+                "Always ready to help you"
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "what is the name of your developers",
+                "what is the name of your creators",
+                "what is the name of the developers",
+                "what is the name of the creators",
+                "who created you",
+                "your developers",
+                "your creators",
+                "who are your developers",
+                "developer",
+                "you are made by",
+                "you are made by whom",
+                "who created you",
+                "who create you",
+                "creator",
+                "who made you",
+                "who designed you"
+            ],
+            "responses": [
+                "Rushabh Shah",
+                "Student of M Tech",
+                "PG students are developers",
+                "PG students are creators"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "your name",
+                "do you have a name",
+                "what are you called",
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "what are you",
+                "who are you",
+                "who is this",
+                "what am i chatting to",
+                "who am i taking to",
+                "what are you"
+            ],
+            "responses": [
+                "You can call me Chitt Chat.",
+                "I'm Chitt Chat ChatBot",
+                "I am a AI generated Chatbot. My name is Chitt Chat",
+                "I am your Chitt Chat"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "timing of institute",
+                "what is institute timing",
+                "working days",
+                "when are you guys open",
+                "when you guys are open",
+                "what are your hours",
+                "what are your office hours",
+                "hours of operation",
+                "when will institute open",
+                "institute timing",
+                "what about institute timing",
+                "is institute open on saturday",
+                "tell something about institute timing",
+                "what is the institute hours",
+                "when should i come to institute",
+                "when should i visit institute",
+                "what is my institute time",
+                "institute timing",
+                "timing institute"
+            ],
+            "responses": [
+                "Institute is open between 9:15am-6:00pm from Monday to Friday!",
+                "IIIT Vadodara will remain open from Monday to Friday 9 am to 6 pm",
+                "9:15am to 6:00pm Monday to Friday every week"
+            ]
+        },
+        {
+            "tag": "number",
+            "patterns": [
+                "more info",
+                "contact info",
+                "how to contact institute",
+                "institute telephone number",
+                "institute number",
+                "What is your contact no",
+                "Contact number?",
+                "how to call you",
+                "institute phone no?",
+                "how can i contact you",
+                "Can i get your phone number",
+                "how can i call you",
+                "phone number",
+                "phone no",
+                "call"
+            ],
+            "responses": [
+                "You can contact at: +91-79-29750281, +91- 8849303883 or mail us at administration@iiitvadodara.ac.in",
+                "Here is institute's contact number: +91-79-29750281, +91- 8849303883",
+                "Mail us at administration@iiitvadodara.ac.in or contact us at: +91-79-29750281, +91- 8849303883"
+            ]
+        },
+        {
+            "tag": "course",
+            "patterns": [
+                "list of courses",
+                "list of courses offered",
+                "list of courses offered in",
+                "what are the courses offered in your institute?",
+                "courses?",
+                "courses offered",
+                "courses offered in IIIT Vadodara",
+                "courses you offer at IIITV",
+                "branches?",
+                "courses available at IIIT?",
+                "branches available?",
+                "what are the courses?",
+                "what are branches?",
+                "what are courses?",
+                "branches available?",
+                "can you tell me the courses available in IIITV?",
+                "can you tell me the branches available in IIIT Vadodara?"
+            ],
+            "responses": [
+                "Our university offers BTech in Information Technology, Computer Science and Engineering, MTech CSE with AI or Data Science and Phd courses."
+            ]
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "information about fee",
+                "information on fee",
+                "tell me the fee",
+                "institute fee",
+                "fee per semester",
+                "what is the fee of each semester",
+                "what is the fees of each year",
+                "what is fee",
+                "what is the fees",
+                "how much is the fees",
+                "fees for first year",
+                "fees",
+                "about the fees",
+                "tell me something about the fees",
+                "What is the fees of hostel",
+                "how much is the fees",
+                "hostel fees",
+                "fees for AC room",
+                "fees for non-AC room",
+                "fees for Ac room for girls",
+                "fees for non-Ac room for girls",
+                "fees for Ac room for boys",
+                "fees for non-Ac room for boys"
+            ],
+            "responses": [
+                "For Fee details visit <a target=\"_blank\" href=\"https://iiitvadodara.ac.in/admission_btech.php\"> here</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "where is the institute located",
+                "institute is located at",
+                "where is institute",
+                "where is institute located",
+                "address of institute",
+                "how to reach institute",
+                "institute location",
+                "institute address",
+                "wheres the institute",
+                "how can I reach institute",
+                "whats is the institute address",
+                "what is the address of institute",
+                "address",
+                "location"
+            ],
+            "responses": [
+                "You can check the institute location <a target=\"_blank\" href=\"https://maps.app.goo.gl/LiUbDGqakAsEbha77\"> here</a>",
+                "Please visit this <a target=\"_blank\" href=\"https://maps.app.goo.gl/LiUbDGqakAsEbha77\"> link</a> to see institute location"
+            ]
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "hostel facility",
+                "hostel servive",
+                "hostel location",
+                "hostel address",
+                "hostel facilities",
+                "hostel fees",
+                "Does institute provide hostel",
+                "Is there any hostel",
+                "Where is hostel",
+                "do you have hostel",
+                "do you guys have hostel",
+                "hostel",
+                "hostel capacity",
+                "what is the hostel fee",
+                "how to get in hostel",
+                "what is the hostel address",
+                "how far is hostel from institute",
+                "hostel institute distance",
+                "where is the hostel",
+                "how big is the hostel",
+                "distance between institute and hostel",
+                "distance between hostel and institute"
+            ],
+            "responses": [
+                "For hostel detail visit <a target=\"_blank\" href=\"https://iiitvadodara.ac.in/hostel.php\"> here</a>",
+                "Yes hostel facility is provided you can check on this <a target=\"_blank\" href=\"https://iiitvadodara.ac.in/hostel.php\">link</a>"
+            ]
+        },
+        {
+            "tag": "event",
+            "patterns": [
+                "events organised",
+                "list of events",
+                "list of events organised in institute",
+                "list of events conducted in institute",
+                "What events are conducted in institute",
+                "Are there any event held at institute",
+                "Events?",
+                "functions",
+                "what are the events",
+                "tell me about events",
+                "what about events"
+            ],
+            "responses": [
+                "For event detail visit <a target=\"_blank\" href=\"https://iiitvadodara.ac.in\"> here</a>"
+            ]
+        },
+        {
+            "tag": "document",
+            "patterns": [
+                "document to bring",
+                "documents needed for admision",
+                "documents needed at the time of admission",
+                "documents needed during admission",
+                "documents required for admision",
+                "documents required at the time of admission",
+                "documents required during admission",
+                "What document are required for admission",
+                "Which document to bring for admission",
+                "documents",
+                "what documents do i need",
+                "what documents do I need for admission",
+                "documents needed"
+            ],
+            "responses": [
+                "To know more about document required visit <a target=\"_blank\" href=\"https://iiitvadodara.ac.in/admission_btech.php\"> here</a>"
+            ]
+        },
+        {
+            "tag": "floors",
+            "patterns": [
+                "size of campus",
+                "building size",
+                "How many floors does institute have",
+                "floors in institute",
+                "floors in institute",
+                "how tall is institute's of building",
+                "floors",
+                "no of floors?",
+                "number of floors"
+            ],
+            "responses": [
+                "institute is of 2 floors",
+                "Our institute has 2 floors",
+                "2 floors"
+            ]
+        },
+        {
+            "tag": "syllabus",
+            "patterns": [
+                "Syllabus for IT",
+                "what is the Information Technology syllabus",
+                "syllabus",
+                "timetable",
+                "what is IT syllabus",
+                "Syllabus for CSE",
+                "what is the Computer Science and Engineering syllabus",
+                "what is CSE syllabus"
+            ],
+            "responses": [
+                "Timetable provide direct to the students OR To know about syllabus visit <a target=\"_blank\" href=\"https://iiitvadodara.ac.in/academics_under_graduate.php\"> here</a>"
+            ]
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "is there any library",
+                "library facility",
+                "library facilities",
+                "do you have library",
+                "does the institute have library facility",
+                "institute library",
+                "where can i get books",
+                "book facility",
+                "Where is library",
+                "Library",
+                "Library information",
+                "Library books information",
+                "Tell me about library",
+                "how many libraries"
+            ],
+            "responses": [
+                "There is one nice and spacious library, timings are 10am to 5pm",
+                "Yes library is their for students"
+            ]
+        },
+        {
+            "tag": "infrastructure",
+            "patterns": [
+                "how is institute infrastructure",
+                "infrastructure",
+                "institute infrastructure"
+            ],
+            "responses": [
+                "Our University has Excellent Infrastructure. Campus is clean. Good IT Labs With Fast Speed of Internet connection"
+            ]
+        },
+        {
+            "tag": "canteen",
+            "patterns": [
+                "food facilities",
+                "canteen facilities",
+                "canteen facility",
+                "is there any canteen",
+                "Is there a cafetaria in institute",
+                "Does institute have canteen",
+                "Where is canteen",
+                "where is cafetaria",
+                "canteen",
+                "Food",
+                "Cafetaria"
+            ],
+            "responses": [
+                "Our university has mess with variety of food available",
+                "Yes mess/canteen is provided"
+            ]
+        },
+        {
+            "tag": "menu",
+            "patterns": [
+                "food menu",
+                "food in canteen",
+                "Whats there on menu",
+                "what is available in institute canteen",
+                "what foods can we get in institute canteen",
+                "food variety",
+                "What is there to eat?"
+            ],
+            "responses": [
+                "Food menu will be share to student's institute ID",
+                "Once enrolled you will get the menu"
+            ]
+        },
+        {
+            "tag": "placement",
+            "patterns": [
+                "What is institute placement",
+                "Which companies visit in institute",
+                "What is average package",
+                "companies visit",
+                "package",
+                "About placement",
+                "placement",
+                "recruitment",
+                "companies"
+            ],
+            "responses": [
+                "To know about placement visit <a target=\"_blank\" href=\"https://iiitvadodara.ac.in/placement.php\">here</a>"
+            ]
+        },
+        {
+            "tag": "Director",
+            "patterns": [
+                "what is the name of director",
+                "whatv is the director name",
+                "director name",
+                "Who is institute director",
+                "Where is director's office",
+                "director",
+                "name of director"
+            ],
+            "responses": [
+                "Dr. Rajat Mona is institute's director"
+            ]
+        },
+        {
+            "tag": "sem",
+            "patterns": [
+                "exam dates",
+                "exam schedule",
+                "When is semester exam",
+                "Semester exam timetable",
+                "sem",
+                "semester",
+                "exam",
+                "when is exam",
+                "exam timetable",
+                "exam dates",
+                "when is semester"
+            ],
+            "responses": [
+                "semester wise time-table will be provided by the Professor at the starting of every semester"
+            ]
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "what is the process of admission",
+                "what is the admission process",
+                "How to take admission in your institute",
+                "What is the process for admission",
+                "admission",
+                "admission process"
+            ],
+            "responses": [
+                "Admission process are conducted via ACPC please visit <a target=\"_blank\" href=\"https://acpc.gujarat.gov.in/\">here</a>"
+            ]
+        },
+        {
+            "tag": "scholarship",
+            "patterns": [
+                "scholarship",
+                "Is scholarship available",
+                "scholarship engineering",
+                "scholarship it",
+                "scholarship ce",
+                "scholarship mechanical",
+                "scholarship civil",
+                "scholarship chemical",
+                "scholarship for AI/ML",
+                "available scholarships",
+                "scholarship for computer engineering",
+                "scholarship for IT engineering",
+                "scholarship for mechanical engineering",
+                "scholarship for civil engineering",
+                "scholarship for chemical engineering",
+                "list of scholarship",
+                "comps scholarship",
+                "IT scholarship",
+                "mechanical scholarship",
+                "civil scholarship",
+                "chemical scholarship",
+                "automobile scholarship",
+                "first year scholarship",
+                "second year scholarship",
+                "third year scholarship",
+                "fourth year scholarship"
+            ],
+            "responses": [
+                "Many government scholarships are supported by our university. For details and updates visit <a target=\"_blank\" href=\"https://scholarships.gov.in/\">here</a>"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "What facilities institute provide",
+                "institute facility",
+                "What are institute facilities",
+                "facilities",
+                "facilities provided"
+            ],
+            "responses": [
+                "Our institute's Engineering department provides fully AC Lab with internet connection, smart classroom, Auditorium, library,canteen"
+            ]
+        },
+        {
+            "tag": "institute intake",
+            "patterns": [
+                "max number of students",
+                "number of seats per branch",
+                "number of seats in each branch",
+                "maximum number of seats",
+                "maximum students intake",
+                "What is institute intake",
+                "how many stundent are taken in each branch",
+                "seat allotment",
+                "seats"
+            ],
+            "responses": [
+                "For IT, Computer and extc 180 per branch and seat may be differ for different department."
+            ]
+        },
+        {
+            "tag": "uniform",
+            "patterns": [
+                "institute dress code",
+                "institute dresscode",
+                "what is the uniform",
+                "can we wear casuals",
+                "Does institute have an uniform",
+                "Is there any uniform",
+                "uniform",
+                "what about uniform",
+                "do we have to wear uniform"
+            ],
+            "responses": [
+                "Their are no uniform required for the institute",
+                "Students can wear normal clothes not any uniform is mandetory",
+                "No uniform - normal dressing for students"
+            ]
+        },
+        {
+            "tag": "committee",
+            "patterns": [
+                "what are the different committe in institute",
+                "different committee in institute",
+                "Are there any committee in institute",
+                "Give me committee details",
+                "committee",
+                "how many committee are there in institute"
+            ],
+            "responses": [
+                "For the various committe in institute contact this number: +91-79-29750281, +91- 8849303883"
+            ]
+        },
+        {
+            "tag": "random",
+            "patterns": [
+                "I love you",
+                "Will you marry me",
+                "Do you love me"
+            ],
+            "responses": [
+                "I am not program for this, please ask appropriate query"
+            ]
+        },
+        {
+            "tag": "swear",
+            "patterns": [
+                "fuck",
+                "bitch",
+                "shut up",
+                "hell",
+                "stupid",
+                "idiot",
+                "dumb ass",
+                "asshole",
+                "fucker"
+            ],
+            "responses": [
+                "please use appropriate language",
+                "Maintaining decency would be appreciated"
+            ]
+        },
+        {
+            "tag": "vacation",
+            "patterns": [
+                "holidays",
+                "when will semester starts",
+                "when will semester end",
+                "when is the holidays",
+                "list of holidays",
+                "Holiday in these year",
+                "holiday list",
+                "about vacations",
+                "about holidays",
+                "When is vacation",
+                "When is holidays",
+                "how long will be the vacation"
+            ],
+            "responses": [
+                "Academic calender will be shared to you by your Professor after you join your respective classes"
+            ]
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "sports and games",
+                "give sports details",
+                "sports infrastructure",
+                "sports facilities",
+                "information about sports",
+                "Sports activities",
+                "please provide sports and games information"
+            ],
+            "responses": [
+                "Our university encourages all-round development of students and hence provides sports facilities in the campus. For more details visit<a target=\"_blank\" href=/\"https://gymkhana.iiitvadodara.ac.in/\">here</a>"
+            ]
+        },
+        {
+            "tag": "salutaion",
+            "patterns": [
+                "okk",
+                "okie",
+                "nice work",
+                "well done",
+                "good job",
+                "thanks for the help",
+                "Thank You",
+                "its ok",
+                "Thanks",
+                "Good work",
+                "k",
+                "ok",
+                "okay"
+            ],
+            "responses": [
+                "I am glad I helped you",
+                "welcome, anything else i can assist you with?"
+            ]
+        },
+        {
+            "tag": "task",
+            "patterns": [
+                "what can you do",
+                "what are the thing you can do",
+                "things you can do",
+                "what can u do for me",
+                "how u can help me",
+                "why i should use you"
+            ],
+            "responses": [
+                "I can answer to low-intermediate questions regarding institute",
+                "You can ask me questions regarding institute, and i will try to answer them"
+            ]
+        },
+        {
+            "tag": "ragging",
+            "patterns": [
+                "ragging",
+                "is ragging practice active in institute",
+                "does institute have any antiragging facility",
+                "is there any ragging cases",
+                "is ragging done here",
+                "ragging against",
+                "antiragging facility",
+                "ragging juniors",
+                "ragging history",
+                "ragging incidents"
+            ],
+            "responses": [
+                "We are Proud to tell you that our institute provides ragging free environment, and we have strict rules against ragging"
+            ]
+        },
+        {
+            "tag": "calculate",
+            "patterns": [
+                "calculate",
+                "solve",
+                "compute",
+                "what is",
+                "evaluate",
+                "find the answer for",
+                "math",
+                "mathematics"
+            ],
+            "responses": [
+                "Sure, please provide the mathematical expression you want me to calculate."
+            ]
+        }
+    ]
+}
