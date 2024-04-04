@@ -1,3 +1,4 @@
+import streamlit as st
 import random
 import json
 import pickle
@@ -8,6 +9,11 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 
 from tensorflow.keras.models import load_model
+
+st.set_page_config(
+    page_title="Home",
+    page_icon="🏠",
+)
 
 lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
@@ -51,14 +57,14 @@ def get_response(intents_list,intents_json):
             break
     return result
 
-print("GO! Bot is running")
+st.title("GO! Bot is running")
 
-while True:
-    message = input("")
+message = st.text_input("Enter your message")
+
+if message:
     ints = predict_class(message)
     res = get_response(ints, intents)
-    print(res)
-
+    st.write(res)
 
     # Handle mathematical calculations
     if "calculate" in message.lower() or "math" in message.lower():
@@ -66,6 +72,6 @@ while True:
         expression = message.replace("calculate", "").strip()
         try:
             result = eval(expression)
-            print(f"Calculated result: {result}")
+            st.write(f"Calculated result: {result}")
         except Exception as e:
-            print(f"Error evaluating expression: {e}")
+            st.write(f"Error evaluating expression: {e}")
